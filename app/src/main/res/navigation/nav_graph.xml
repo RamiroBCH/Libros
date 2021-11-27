@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listadelibros">
+
+    <fragment
+        android:id="@+id/listadelibros"
+        android:name="com.rbch.books.libros.ui.Listadelibros"
+        android:label="@string/labellista"
+        tools:layout="@layout/fragment_listadelibros" >
+        <action
+            android:id="@+id/action_listadelibros_to_prologo"
+            app:destination="@id/prologo" />
+    </fragment>
+    <fragment
+        android:id="@+id/prologo"
+        android:name="com.rbch.books.libros.ui.Prologo"
+        android:label="@string/labelprologo"
+        tools:layout="@layout/fragment_prologo" />
+</navigation>

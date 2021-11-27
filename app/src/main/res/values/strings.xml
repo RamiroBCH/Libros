@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Libros</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="labellista">Lista de libros.</string>
+    <string name="labelprologo">Prologo.</string>
+    <string name="la_tierra_en_llamas">La tierra en llamas.</string>
+</resources>
